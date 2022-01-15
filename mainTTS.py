@@ -116,12 +116,12 @@ highQualityTTS = False
 
 # IBM Auth Keys - dont expose - used for TTS
 
-authenticator = IAMAuthenticator('lmdgQT1vHGmBpOZSrsHM_HaeAaAieNO7uC2NLBHMlcVl')
+authenticator = IAMAuthenticator((REDACTED_FOR_SECURITY)
 text_to_speech = TextToSpeechV1(
     authenticator=authenticator
 )
 
-text_to_speech.set_service_url('https://api.eu-gb.text-to-speech.watson.cloud.ibm.com/instances/326d3ba3-d11d-4851-897b-ce33846e5388')
+text_to_speech.set_service_url(REDACTED_FOR_SECURITY)
 
 class ButtonHandler(Thread):
     def __init__(self, pin, func, edge='both', bouncetime=200):

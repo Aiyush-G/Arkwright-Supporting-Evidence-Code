@@ -1,0 +1,8 @@
+Temperature
+27.5
+Humidity
+17
+Lighting
+False
+Speaker
+False
